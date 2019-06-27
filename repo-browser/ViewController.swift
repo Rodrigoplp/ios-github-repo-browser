@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import GithubAPI
+import FontAwesome_swift
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, RBRNetworkControllerDelegate {
     
@@ -14,7 +16,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     @IBOutlet var tblRepoTable: UITableView!
     
     let cellIdentifier = "RepoCell"
-    var dataSource: Array<Dictionary<String, String>> = []
+    var dataSource: [RepositoryResponse] = [RepositoryResponse]()
     var selectedIndex: Int!
     let netController = RBRNetworkController()
     
@@ -49,9 +51,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell: RepoCell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! RepoCell
         
-        //        cell.imgThumbnail.image = dataSource[indexPath.row][]
-        //        cell.lblTitle.text = dataSource[indexPath.row][]
-        cell.lblDescription.text = dataSource[indexPath.row]["Description_RPA"]
+        cell.imgThumbnail.image = UIImage(named: "Octocat")
+        cell.lblTitle.text = dataSource[indexPath.row].name
+        cell.lblDescription.text = dataSource[indexPath.row].descriptionField
+        cell.lblRepoType.font = UIFont.fontAwesome(ofSize: 12, style: .solid)
+        cell.lblRepoType.text = String.fontAwesomeIcon(name: .codeBranch)
         //        cell.lblRepoType.text = dataSource[indexPath.row][]
         
         return cell
@@ -69,26 +73,16 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     // MARK: - Network calls
     
     /**
-    Get all repositories of a user
-    */
+     Get all repositories of a user
+     */
     func getRepos() {
         if let owner = txfRepoOwner.text {
             weak var weakSelf = self
             DispatchQueue.global(qos: .userInitiated).async {
-                weakSelf?.netController.getRepos(owner: owner, completion: { (data, HTTPStatusCode, error) in
-                    if HTTPStatusCode == 200 && error == nil {
-                        do {
-                            let result = try JSONSerialization.jsonObject(with: data!, options: []) as! Array<Dictionary<String, AnyObject>>
-                            print(result)
-//                            weakSelf?.btnConfigUsers.isHidden = self.appChildren.count > 0 ? false : true
-//                            weakSelf?.cltChildrenCollection.reloadData()
-                        }
-                        catch {
-                            print("Post request try/catch error: \(error)")
-                        }
-                    }
-                    else {
-                        print("Error retrieving repo")
+                weakSelf?.netController.getRepos(owner: owner, completion: { (data) in
+                    weakSelf?.dataSource = data
+                    DispatchQueue.main.async {
+                        weakSelf?.tblRepoTable.reloadData()
                     }
                 })
             }
@@ -97,6 +91,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             self.warnMessage(msg: "Please fill repository owner field")
         }
     }
+    
     
     // MARK: - Action
     

@@ -1,0 +1,1595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04FFD0BA6FEE23BAAD7EFB0FBD51D302 /* FontAwesomeImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B86876311D721209478A5FB5215E52 /* FontAwesomeImageView.swift */; };
+		08159CD179DCED0C375F14CA98C039D6 /* SearchCodeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815D08DD895FDAB7AB1310472525418D /* SearchCodeRepository.swift */; };
+		0E8855C26F318647C231758045C1983D /* NotificationsOwner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5684697D2BC17F7E469B452E38CDE7 /* NotificationsOwner.swift */; };
+		0F38DD5AD90DFBBF8047B080A7D47158 /* GetIssueResponseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB8B438033A7E71D6C40669C1D7FEB7 /* GetIssueResponseRepository.swift */; };
+		0F51CEAC0DC117893227F3E8F2EDDAC8 /* BaseAPI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EBCAFF59210612C598D2FF6FF6FB4B0 /* BaseAPI-dummy.m */; };
+		108B1A6C1FDEDC82946AFBB823ACC431 /* RequestHeaderFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9521BD9BB853BFF578F2E212F274CD5D /* RequestHeaderFields.swift */; };
+		14C81AA137EA2DAE2426B768131DB4A9 /* OtherUserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EEF5018D278B55346B04F17536FD23 /* OtherUserResponse.swift */; };
+		1629B85F0ECAB6A283ACF0CB76277184 /* FontAwesomeTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B54DFD4AD35F6B155F029883ED684F1 /* FontAwesomeTabBarItem.swift */; };
+		1C93B9E977D03236A6601B33337A7DFB /* AllUsersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D83DD904C32C1AE90361D55ABA473D /* AllUsersResponse.swift */; };
+		1EEFF185FA5311E4C4885BD65B1134B7 /* RepositoryLicense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B83933FD3632C8D3D73262888A1EDE /* RepositoryLicense.swift */; };
+		202A26BD2D598BBAF6EF53A013D3E2ED /* SearchIssuesMilestone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8440C189B14D154A920AD0E0823DC5 /* SearchIssuesMilestone.swift */; };
+		232CFE4F19BD7BCABB942B19253766DD /* GetIssueResponsePullRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E790524FA70D43C376824CA0B9052728 /* GetIssueResponsePullRequest.swift */; };
+		2673331D8D7DAB0D7D02159C35952D38 /* RepositoryOrganization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43B75C8BABBCAD22EEDD9124DDD3B57 /* RepositoryOrganization.swift */; };
+		28757E4AD554CBD39E97BBCA1328BFC5 /* FontAwesomeBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B19C795F88040DAA4792BB92EFE63C /* FontAwesomeBarButtonItem.swift */; };
+		2C3D398884B8D56C87CA9E59C7199DB1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13694523D54322089F8D63BA65C36B8A /* UIKit.framework */; };
+		2EF72FBB034A5E99CDAD807D168F44AF /* UserPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FD7449CBA2A3F1A248D4A3EBE5A6A8 /* UserPlan.swift */; };
+		2F3921F0DB512FDBB6D2010D0110AE81 /* SearchCommitsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543DD01AE19C645E0EE393C04A398203 /* SearchCommitsItem.swift */; };
+		3AB755DF1D88B014DD3D5DAD755FA6DE /* GetIssueResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370A0F250936A9FEB86DBC023932142A /* GetIssueResponse.swift */; };
+		4212E7EABF6CD40B3526BF273B39F1CD /* SearchCodeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21B2AFF65841EF1CFD026A348DDC352 /* SearchCodeItem.swift */; };
+		4563F38E9C355744C1C466413CD0931C /* BaseAPI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A097DC799F491432A1CA60C149A22AA /* BaseAPI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45C658FC3A2FEA35B060EFB42A416FFC /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43D069906EA7488446BA32D68DB3FCC /* String.swift */; };
+		4A7EEFB7D04DAE41C470584266FBE160 /* RequestMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1A53F9C582300BF9BEC8BE8715B39D /* RequestMethod.swift */; };
+		4C391DC98A061940CFA79FFCC74FC729 /* SearchIssuesLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89C094C4C4F4FC5A1B61F30D0F0BDF8 /* SearchIssuesLabel.swift */; };
+		5133EE0F311924DBAF244088F1EB3B34 /* RepositoryParent.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD22F9AFDF61D0579C7817442C128EC /* RepositoryParent.swift */; };
+		555AB8CA91EB0CECA0A691FFA527BEB0 /* CharacterSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAAA6872FA9696668C80BE955286AD5 /* CharacterSet.swift */; };
+		5A1534730688D0FB9158F97421D70ADC /* Pods-repo-browser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67A1A8533E902C5F4593CC4717DB3DAF /* Pods-repo-browser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C78932F992FFA9FDAAAA5B876E91897 /* SearchCommitsOwner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD6D5535A0E6A24126DF453CF9B3D18 /* SearchCommitsOwner.swift */; };
+		647DB6CFC90443E9FA706578F8424BD3 /* SearchCommitsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88643157190C85D1A69948876A336698 /* SearchCommitsResponse.swift */; };
+		651E8FA71DF52988E4F0B4FA2834F675 /* Pods-repo-browserTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 647374E79526524FD3BDB93AD5B05D1A /* Pods-repo-browserTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66F009555E30BE7745CFB05BC6E9F2BF /* NotificationsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B28D2E5301B7426793D3371B4AB945 /* NotificationsRepository.swift */; };
+		68BAC7962A168D4583274C0DD9325578 /* FontAwesome.swift.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3DA4F5DC4EB6E9DF6B4859D27EF8C9F5 /* FontAwesome.swift.bundle */; };
+		6C02EE2DE8BC05D2205D71C81AE3C7B6 /* Pods-repo-browser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8FFB5AA1852D837383511EB4E5377CB /* Pods-repo-browser-dummy.m */; };
+		6E9EF0B7BBC22535EA6B3DF633D7F1C7 /* SearchIssuesAssignee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B94301FC267EDB049134FC42162D1D2 /* SearchIssuesAssignee.swift */; };
+		70B81B938724ACD63F905A070523E07C /* Font Awesome 5 Free-Solid-900.otf in Resources */ = {isa = PBXBuildFile; fileRef = E97E6C982A4A349ACE1C2A4C5D2D2ABD /* Font Awesome 5 Free-Solid-900.otf */; };
+		7199F92FBB50BD74ECCC4BFD95B760CF /* FontAwesome.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01665A7C7DA538170E6484E4B52DBD2F /* FontAwesome.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72E5B4146696A4B0D451094782475E8A /* RepositoryPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0E01C792508BFDCDD9A2461D962B28 /* RepositoryPermission.swift */; };
+		73E1EC204310037C102BBA77CE4249AE /* SearchCommitsParent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428AEA70261F330B24F03BF91DDA9DB9 /* SearchCommitsParent.swift */; };
+		75FF8A688A9A8F326F4CAB98E2D11A93 /* SearchIssuesMilestoneCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990438747E7762AF4433FB79A6298A1D /* SearchIssuesMilestoneCreator.swift */; };
+		788320D421344981750875F4CB906779 /* SearchRepositoriesItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC79D70F71D613E6364665B97A3BB1D /* SearchRepositoriesItem.swift */; };
+		788CF91D4B92F5E5A3CBB9C5007A55B4 /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE5B6D46A8F09E5E98E64960E0C7975 /* Authentication.swift */; };
+		78A53E5FFDCB63A2F01639B9E138A0F4 /* SearchRepositoriesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27E90571098733F4BC388788181EC98 /* SearchRepositoriesResponse.swift */; };
+		7BA1AB4574A6467A5544A127D278A643 /* FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25965E2367539B9333292E671A426D0 /* FontAwesome.swift */; };
+		7D61378E17B4B7C316FD3B4480C03662 /* RepositoriesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EA93EE25B5522171BFC04DA84C0CA4 /* RepositoriesAPI.swift */; };
+		85D37B2D1F2D31A1E66838B0EFC3CB84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF05E63708FF8AD75B5DDBA0DB7E584 /* Foundation.framework */; };
+		86805C57C06CC50FC1922FC110B44A47 /* SearchAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211C690C5CE83D22BAB3DE1A5C884FCB /* SearchAPI.swift */; };
+		87A221D795BA9C3EC1BE7B26B14C3ABA /* URLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BE79EE9C7351D9C0E533C6A073366C /* URLSession.swift */; };
+		88C94D84F4BB5DC67E71F90E793BA965 /* FontAwesomeTextRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754DBDECF7C646AF72D9E4252904E5B0 /* FontAwesomeTextRepresentable.swift */; };
+		8E268FC52FFFD64E7F663DA8146E1A73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF05E63708FF8AD75B5DDBA0DB7E584 /* Foundation.framework */; };
+		913E9AE838A8838EA11B030239C2B9EA /* RepositoryReponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28A77C1226E2541EAF7B6E3B589E6B0 /* RepositoryReponse.swift */; };
+		9527B0AC77733FD2F7F54BCFEF8358FF /* GithubAPI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DEE2A3AD37D4A14B8103127D85F7AD7B /* GithubAPI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9814ED7667154CBEAE1A36AA6B1A732B /* SearchIssuesItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193A815D32F7ECE89D8E894E7AFD8F6E /* SearchIssuesItem.swift */; };
+		9B07F953B28919F1FAED988C5952CA3C /* GetIssueResponseMilestone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D56A31E23F2864DA0491A0F7B5DCFD0 /* GetIssueResponseMilestone.swift */; };
+		9D3358724A6243C10C77A0C39CEBBDFF /* SearchRepositoriesOwner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D6B8A5D4089D2E0BDC68F75DC5BBBA /* SearchRepositoriesOwner.swift */; };
+		A12B4F8A65941B16271C0190DF8C761B /* RepositoryContentsLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = D226B028F7638BE8DD03A5AEF41801B5 /* RepositoryContentsLink.swift */; };
+		A1FC0B86096106C0B40258A49835FACC /* SearchIssuesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BC8FC2271397858B6D4EDBB4797ED3 /* SearchIssuesResponse.swift */; };
+		A90D5DBB9CCF37931BA57E468295D1D9 /* GithubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18014FC9EA4C9FC3381857970F456CAF /* GithubAPI.swift */; };
+		A9E6F9673A9059F6839D7CFC075DFFA0 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAB59DB5D1B377C9EF6424D52CE8514 /* Enum.swift */; };
+		AA0D656B4A636305DA1BC1F9B73408DD /* FontAwesomeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6949261B5EDACF3229EADB604A9579 /* FontAwesomeExtension.swift */; };
+		AA74662429C309950C95E727A75220CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF05E63708FF8AD75B5DDBA0DB7E584 /* Foundation.framework */; };
+		AE232955C42F0DC3DD075C740985880B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF05E63708FF8AD75B5DDBA0DB7E584 /* Foundation.framework */; };
+		AE4B2E001DEFDA2921865B83644F0B30 /* FontAwesomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E958730058030B75189FFAF50BAF8C /* FontAwesomeView.swift */; };
+		AF70BDBD27A8A9C1B4139CA6FF0E1770 /* BaseAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F666121A0BCB415E5A5E0D316427B8DF /* BaseAPI.framework */; };
+		B146028E135EDF54440DB4E9FB4BEC05 /* SearchCodeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C59CE97CBF53A79C9FA566BDCB38CC /* SearchCodeResponse.swift */; };
+		B4525E15F08835F3A89706F96040B7D9 /* RepositoryOwner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4AFFF41509292A23A20AC0C3164693 /* RepositoryOwner.swift */; };
+		BA1BA5BBAEFF939D2307846737E2A4F9 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F6A9C96229F38FCAAA98F08A9456DCB /* CoreText.framework */; };
+		BA5DF713E9230DD94124FEB48DF87EB1 /* UserAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCA7E6C76A31A192DCC0231F505CF1D /* UserAPI.swift */; };
+		C14DE531101551DCCADEF4AC968A561B /* NotificationsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D820B7DC9B15F0BA46EE7023BC8A1C09 /* NotificationsResponse.swift */; };
+		C2FD60C5A2C399607870BDF82E20F679 /* FontAwesomeStateRequirement.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEEB48998D9BC31C075509BBE388ECE /* FontAwesomeStateRequirement.swift */; };
+		C66408B02DE96F22CC6326EDAA6AB0F1 /* SearchIssuesUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7300918E4A61AB996599384EB13F19 /* SearchIssuesUser.swift */; };
+		C69F337713A37CF436B8E5B73B0E812A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF05E63708FF8AD75B5DDBA0DB7E584 /* Foundation.framework */; };
+		CB47FC55ADA39CF91F689802CF5BC1DD /* GetIssueResponseAssignee.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89413DB736951BF10AB215497F4F6BD /* GetIssueResponseAssignee.swift */; };
+		CDA9BF9FC107A710EFD3C4CDD7A2D25C /* SearchCommitsAuthor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A563861AAC1D746D83F436606272EF /* SearchCommitsAuthor.swift */; };
+		D28A7A864BAD82F9F7EB2E84B03D3AEB /* Font Awesome 5 Free-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0E0D4C43FBBD247541781AFCF0F9062C /* Font Awesome 5 Free-Regular-400.otf */; };
+		D387746722E5E6E58C1BCACCE26B71AE /* UpdateUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62ED4B5BD0F304DD265BA126341C465 /* UpdateUser.swift */; };
+		D46FE73409B0F98ED2E67F6A335C1CDA /* OtherUserError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C20649FAF4BEC0AA21AB8D6DE97ACA /* OtherUserError.swift */; };
+		D6E42D393BE031D598821E3E8EDA7EB3 /* SearchCommitsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95662181244C9031710CF9B01917CFB /* SearchCommitsRepository.swift */; };
+		D8C2F22E5A3CF849D9D7A8D4A63C93CF /* UserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913501D41FF32929916DE744ACD0E4AA /* UserResponse.swift */; };
+		DA0DA4A3A99962BF2193212BE9CBE3E0 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93DB59C06129ABA5DDF3D95A51C5812 /* Request.swift */; };
+		DD45966ACBDE28A824052DD6CF815A07 /* NotificationsSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BA86705C76C7720658A124E7C364D8 /* NotificationsSubject.swift */; };
+		DED224934E770D48544184BEC3B714DF /* FontAwesome.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4932F2CDD333C0EEDDD58EA22D22693 /* FontAwesome.swift-dummy.m */; };
+		E0E091D97C082FEBA802567A606B192A /* FontAwesomeImageRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A476EA7437EA49348BC9B6A678D79F /* FontAwesomeImageRepresentable.swift */; };
+		E0F3265F4957AADB79CDDC072EF345FB /* SearchCodeOwner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CB91F22EC23E766F63B27AEACCBEF5 /* SearchCodeOwner.swift */; };
+		E219C67509E6F8C782C265B543791747 /* FontAwesomeSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CA802FC27F5B2DCCE78EEAB223DB12 /* FontAwesomeSegmentedControl.swift */; };
+		E3A1B6F5E3E520FD7EDCCB64B29B0989 /* BaseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C38F169D6511FF055D19B96668F15C /* BaseAPI.swift */; };
+		EABCAC0C60BD2F0ED2862113516EEB33 /* SearchCommitsCommit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672F733751275C03EBC2705EE14CEF99 /* SearchCommitsCommit.swift */; };
+		EB9066F34D45DE87C2751834427DE4F8 /* IssuesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF3813EAC175064218EC4D41A15A6DE /* IssuesAPI.swift */; };
+		ECA700044852803D09A967E67981971F /* SearchUsersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5221BF89922FCCA13A4A119F9AF3CC /* SearchUsersResponse.swift */; };
+		EF96B616BE75A442019963B01D73D91C /* Font Awesome 5 Brands-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = C3B7C7B18EA8C7FD8E58585F62FE8933 /* Font Awesome 5 Brands-Regular-400.otf */; };
+		F0F524B4E07EE9355BDF57A77A485B85 /* SearchCommitsTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6627C6AE5EB81526411FB1653432E16 /* SearchCommitsTree.swift */; };
+		F298C239B4D051C0C832C672817A28C8 /* NotificationsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EB999B16F20D08A68169AE737C9B7C /* NotificationsAPI.swift */; };
+		F33FA7956A50FE5413E228AC9C2F09D7 /* RepositoryContentsReponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7AA0CAD1AD4BF93E718857932202A1 /* RepositoryContentsReponse.swift */; };
+		F519C653A63F9500027D67A0E9C8E729 /* RepositoriesContentsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE3CD77E1915B647EA42E8C857100F3 /* RepositoriesContentsAPI.swift */; };
+		F563A4AC381BF940F177A0AD729158C1 /* SearchUsersItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FEEFD9F19424230CF56C364FC8019E /* SearchUsersItem.swift */; };
+		F7A64BCE2B95700F334864683C606171 /* Issue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9650CA800594E94027F19F3C48284D02 /* Issue.swift */; };
+		F82D00AA21061B78FBEA51A3EFE25B6A /* SearchCommitsCommitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E5E1024979138E18666926A1EEE970 /* SearchCommitsCommitter.swift */; };
+		FCD5AA681298CFDC1DFA166D55ABF216 /* GetIssueResponsePermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD7638B0032734BFBA147D52F2C1147 /* GetIssueResponsePermission.swift */; };
+		FD3F707097FE280DB40038660B8107BA /* GithubAPI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38661CF14A0D1C62B8F847BB06E1AAC6 /* GithubAPI-dummy.m */; };
+		FEB652926056A7677F4672027618EB01 /* GetIssueResponseLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48BAFD6148718FA73860039D0E53E0F /* GetIssueResponseLabel.swift */; };
+		FEDC789E37D1EC291001B9608B1121EB /* SearchIssuesPullRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7560A0C8214081698EFF3E528B7B5637 /* SearchIssuesPullRequest.swift */; };
+		FF4817FAC7315E97F50AD95172CBC129 /* Pods-repo-browserTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C0E061C016BE8EF1A696C5B1EECB0C /* Pods-repo-browserTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0519E3D3F94762697201D5BCD30608DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D3AF0C6AF53B8F230647F79054EF73F;
+			remoteInfo = BaseAPI;
+		};
+		2DF228A25FA6E5262C7EB2BF530B8371 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D3AF0C6AF53B8F230647F79054EF73F;
+			remoteInfo = BaseAPI;
+		};
+		452402FFF162D089FBA2F3A1D806D4C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DC20DD2E50259D674257304EC016C93;
+			remoteInfo = "FontAwesome.swift-FontAwesome.swift";
+		};
+		E3A6D849B0401E86D4EDE7A543803693 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB240150692F32EC312F3CF346C8B9D1;
+			remoteInfo = FontAwesome.swift;
+		};
+		F6B27ED481174EC8013BF5AB2A25FE73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46612857DE0B03605DCFF866695FF265;
+			remoteInfo = GithubAPI;
+		};
+		F826A46FAFF96C5A4E424B6D13B9B5BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F23F2351DC311504812F672ADDDA30E;
+			remoteInfo = "Pods-repo-browser";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00EB999B16F20D08A68169AE737C9B7C /* NotificationsAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotificationsAPI.swift; path = GithubAPI/Classes/NotificationsAPI/NotificationsAPI.swift; sourceTree = "<group>"; };
+		01665A7C7DA538170E6484E4B52DBD2F /* FontAwesome.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesome.swift-umbrella.h"; sourceTree = "<group>"; };
+		03A98DFC3AA089C962A03F5E415974D1 /* GithubAPI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GithubAPI-Info.plist"; sourceTree = "<group>"; };
+		05408D879768109798F40F7E2C8D53CD /* FontAwesome.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FontAwesome.swift.modulemap; sourceTree = "<group>"; };
+		07BA86705C76C7720658A124E7C364D8 /* NotificationsSubject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotificationsSubject.swift; path = GithubAPI/Classes/NotificationsAPI/Models/NotificationsSubject.swift; sourceTree = "<group>"; };
+		08B83933FD3632C8D3D73262888A1EDE /* RepositoryLicense.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RepositoryLicense.swift; path = GithubAPI/Classes/RepositoriesAPI/Models/Repository/RepositoryLicense.swift; sourceTree = "<group>"; };
+		08B86876311D721209478A5FB5215E52 /* FontAwesomeImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeImageView.swift; path = FontAwesome/FontAwesomeImageView.swift; sourceTree = "<group>"; };
+		09B28D2E5301B7426793D3371B4AB945 /* NotificationsRepository.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotificationsRepository.swift; path = GithubAPI/Classes/NotificationsAPI/Models/NotificationsRepository.swift; sourceTree = "<group>"; };
+		0B54DFD4AD35F6B155F029883ED684F1 /* FontAwesomeTabBarItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeTabBarItem.swift; path = FontAwesome/FontAwesomeTabBarItem.swift; sourceTree = "<group>"; };
+		0B94301FC267EDB049134FC42162D1D2 /* SearchIssuesAssignee.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchIssuesAssignee.swift; path = GithubAPI/Classes/SearchAPI/Models/Issues/SearchIssuesAssignee.swift; sourceTree = "<group>"; };
+		0CD6D5535A0E6A24126DF453CF9B3D18 /* SearchCommitsOwner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchCommitsOwner.swift; path = GithubAPI/Classes/SearchAPI/Models/Commits/SearchCommitsOwner.swift; sourceTree = "<group>"; };
+		0CF3813EAC175064218EC4D41A15A6DE /* IssuesAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IssuesAPI.swift; path = GithubAPI/Classes/IssuesAPI/IssuesAPI.swift; sourceTree = "<group>"; };
+		0E0D4C43FBBD247541781AFCF0F9062C /* Font Awesome 5 Free-Regular-400.otf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Font Awesome 5 Free-Regular-400.otf"; path = "FontAwesome/Font Awesome 5 Free-Regular-400.otf"; sourceTree = "<group>"; };
+		0F6A9C96229F38FCAAA98F08A9456DCB /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		13694523D54322089F8D63BA65C36B8A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		14F37A1A5A8CDB67E0BD402419A09F58 /* FontAwesome.swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FontAwesome.swift-Info.plist"; sourceTree = "<group>"; };
+		18014FC9EA4C9FC3381857970F456CAF /* GithubAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GithubAPI.swift; path = GithubAPI/Classes/GithubAPI.swift; sourceTree = "<group>"; };
+		193A815D32F7ECE89D8E894E7AFD8F6E /* SearchIssuesItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchIssuesItem.swift; path = GithubAPI/Classes/SearchAPI/Models/Issues/SearchIssuesItem.swift; sourceTree = "<group>"; };
+		1950D942633BB6A2C4C3CAC9FAB7A34C /* Pods-repo-browser-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-repo-browser-frameworks.sh"; sourceTree = "<group>"; };
+		19B19C795F88040DAA4792BB92EFE63C /* FontAwesomeBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeBarButtonItem.swift; path = FontAwesome/FontAwesomeBarButtonItem.swift; sourceTree = "<group>"; };
+		1CB8B438033A7E71D6C40669C1D7FEB7 /* GetIssueResponseRepository.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetIssueResponseRepository.swift; path = GithubAPI/Classes/IssuesAPI/Models/GetIssueResponse/GetIssueResponseRepository.swift; sourceTree = "<group>"; };
+		20A476EA7437EA49348BC9B6A678D79F /* FontAwesomeImageRepresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeImageRepresentable.swift; path = FontAwesome/FontAwesomeImageRepresentable.swift; sourceTree = "<group>"; };
+		211C690C5CE83D22BAB3DE1A5C884FCB /* SearchAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchAPI.swift; path = GithubAPI/Classes/SearchAPI/SearchAPI.swift; sourceTree = "<group>"; };
+		28A3CCFDC77829170B0B12EB9E3391CF /* FontAwesome_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FontAwesome_swift.framework; path = FontAwesome.swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28AC9844D7B68190816E1575BB95D03C /* Pods-repo-browserTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-repo-browserTests.modulemap"; sourceTree = "<group>"; };
+		2B79AF7CF47DE48A0739889316A4B9A6 /* Pods-repo-browserTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-repo-browserTests.release.xcconfig"; sourceTree = "<group>"; };
+		2CCA7E6C76A31A192DCC0231F505CF1D /* UserAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserAPI.swift; path = GithubAPI/Classes/UserAPI/UserAPI.swift; sourceTree = "<group>"; };
+		2EE3CD77E1915B647EA42E8C857100F3 /* RepositoriesContentsAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RepositoriesContentsAPI.swift; path = GithubAPI/Classes/RepositoriesAPI/RepositoriesContentsAPI.swift; sourceTree = "<group>"; };
+		33C59CE97CBF53A79C9FA566BDCB38CC /* SearchCodeResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchCodeResponse.swift; path = GithubAPI/Classes/SearchAPI/Models/Code/SearchCodeResponse.swift; sourceTree = "<group>"; };
+		370A0F250936A9FEB86DBC023932142A /* GetIssueResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetIssueResponse.swift; path = GithubAPI/Classes/IssuesAPI/Models/GetIssueResponse/GetIssueResponse.swift; sourceTree = "<group>"; };
+		38661CF14A0D1C62B8F847BB06E1AAC6 /* GithubAPI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GithubAPI-dummy.m"; sourceTree = "<group>"; };
+		3DA4F5DC4EB6E9DF6B4859D27EF8C9F5 /* FontAwesome.swift.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FontAwesome.swift.bundle; path = "FontAwesome.swift-FontAwesome.swift.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EAB59DB5D1B377C9EF6424D52CE8514 /* Enum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Enum.swift; path = FontAwesome/Enum.swift; sourceTree = "<group>"; };
+		422F605E07F517F1BB63321CE5976B30 /* BaseAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BaseAPI.framework; path = BaseAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		428AEA70261F330B24F03BF91DDA9DB9 /* SearchCommitsParent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchCommitsParent.swift; path = GithubAPI/Classes/SearchAPI/Models/Commits/SearchCommitsParent.swift; sourceTree = "<group>"; };
+		42FD7449CBA2A3F1A248D4A3EBE5A6A8 /* UserPlan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserPlan.swift; path = GithubAPI/Classes/UserAPI/Models/GetUser/UserPlan.swift; sourceTree = "<group>"; };
+		4415101E29B55154EFEFA4C78FD2E646 /* BaseAPI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BaseAPI.modulemap; sourceTree = "<group>"; };
+		4507632D786216ADBD3D3D3BA1F44FE4 /* Pods-repo-browserTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-repo-browserTests.debug.xcconfig"; sourceTree = "<group>"; };
+		47D83DD904C32C1AE90361D55ABA473D /* AllUsersResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AllUsersResponse.swift; path = GithubAPI/Classes/UserAPI/Models/GetAllUsers/AllUsersResponse.swift; sourceTree = "<group>"; };
+		4D3F98183AA0F5E8982EB010565A9B2E /* Pods_repo_browser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_repo_browser.framework; path = "Pods-repo-browser.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DAAA6872FA9696668C80BE955286AD5 /* CharacterSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacterSet.swift; path = BaseAPI/Classes/Extensions/CharacterSet.swift; sourceTree = "<group>"; };
+		4E800923DD2852F37D1E9C3AD5BD665E /* Pods-repo-browser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-repo-browser.debug.xcconfig"; sourceTree = "<group>"; };
+		4EBCAFF59210612C598D2FF6FF6FB4B0 /* BaseAPI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BaseAPI-dummy.m"; sourceTree = "<group>"; };
+		543DD01AE19C645E0EE393C04A398203 /* SearchCommitsItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchCommitsItem.swift; path = GithubAPI/Classes/SearchAPI/Models/Commits/SearchCommitsItem.swift; sourceTree = "<group>"; };
+		6378F66F3F96CCEC39EF19B6ADEC0588 /* Pods-repo-browser-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-repo-browser-acknowledgements.markdown"; sourceTree = "<group>"; };
+		647374E79526524FD3BDB93AD5B05D1A /* Pods-repo-browserTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-repo-browserTests-umbrella.h"; sourceTree = "<group>"; };
+		672D00E4ADE84997310B961A41A044CF /* GithubAPI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GithubAPI-prefix.pch"; sourceTree = "<group>"; };
+		672F733751275C03EBC2705EE14CEF99 /* SearchCommitsCommit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchCommitsCommit.swift; path = GithubAPI/Classes/SearchAPI/Models/Commits/SearchCommitsCommit.swift; sourceTree = "<group>"; };
+		67A1A8533E902C5F4593CC4717DB3DAF /* Pods-repo-browser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-repo-browser-umbrella.h"; sourceTree = "<group>"; };
+		6998085A66C69CD85DCA1D7BB31BB2C8 /* Pods-repo-browser-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-repo-browser-Info.plist"; sourceTree = "<group>"; };
+		6FF0E886B2AC33D9FFCF5B626363A41B /* BaseAPI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BaseAPI.xcconfig; sourceTree = "<group>"; };
+		71AC37A9A8AB89493EB037875F2FA2D2 /* Pods_repo_browserTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_repo_browserTests.framework; path = "Pods-repo-browserTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71CB91F22EC23E766F63B27AEACCBEF5 /* SearchCodeOwner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchCodeOwner.swift; path = GithubAPI/Classes/SearchAPI/Models/Code/SearchCodeOwner.swift; sourceTree = "<group>"; };
+		73A563861AAC1D746D83F436606272EF /* SearchCommitsAuthor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchCommitsAuthor.swift; path = GithubAPI/Classes/SearchAPI/Models/Commits/SearchCommitsAuthor.swift; sourceTree = "<group>"; };
+		73D6B8A5D4089D2E0BDC68F75DC5BBBA /* SearchRepositoriesOwner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchRepositoriesOwner.swift; path = GithubAPI/Classes/SearchAPI/Models/Repositories/SearchRepositoriesOwner.swift; sourceTree = "<group>"; };
+		754DBDECF7C646AF72D9E4252904E5B0 /* FontAwesomeTextRepresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeTextRepresentable.swift; path = FontAwesome/FontAwesomeTextRepresentable.swift; sourceTree = "<group>"; };
+		7560A0C8214081698EFF3E528B7B5637 /* SearchIssuesPullRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchIssuesPullRequest.swift; path = GithubAPI/Classes/SearchAPI/Models/Issues/SearchIssuesPullRequest.swift; sourceTree = "<group>"; };
+		78E5E1024979138E18666926A1EEE970 /* SearchCommitsCommitter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchCommitsCommitter.swift; path = GithubAPI/Classes/SearchAPI/Models/Commits/SearchCommitsCommitter.swift; sourceTree = "<group>"; };
+		7A097DC799F491432A1CA60C149A22AA /* BaseAPI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BaseAPI-umbrella.h"; sourceTree = "<group>"; };
+		7C8440C189B14D154A920AD0E0823DC5 /* SearchIssuesMilestone.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchIssuesMilestone.swift; path = GithubAPI/Classes/SearchAPI/Models/Issues/SearchIssuesMilestone.swift; sourceTree = "<group>"; };
+		7D4AFFF41509292A23A20AC0C3164693 /* RepositoryOwner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RepositoryOwner.swift; path = GithubAPI/Classes/RepositoriesAPI/Models/Repository/RepositoryOwner.swift; sourceTree = "<group>"; };
+		815D08DD895FDAB7AB1310472525418D /* SearchCodeRepository.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchCodeRepository.swift; path = GithubAPI/Classes/SearchAPI/Models/Code/SearchCodeRepository.swift; sourceTree = "<group>"; };
+		86EEF5018D278B55346B04F17536FD23 /* OtherUserResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OtherUserResponse.swift; path = GithubAPI/Classes/UserAPI/Models/GetOtherUser/OtherUserResponse.swift; sourceTree = "<group>"; };
+		87A32E8F3DB14C2B4CABFC3F8940EECA /* Pods-repo-browser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-repo-browser.release.xcconfig"; sourceTree = "<group>"; };
+		88643157190C85D1A69948876A336698 /* SearchCommitsResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchCommitsResponse.swift; path = GithubAPI/Classes/SearchAPI/Models/Commits/SearchCommitsResponse.swift; sourceTree = "<group>"; };
+		88FEEFD9F19424230CF56C364FC8019E /* SearchUsersItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchUsersItem.swift; path = GithubAPI/Classes/SearchAPI/Models/Users/SearchUsersItem.swift; sourceTree = "<group>"; };
+		8C8217C4EB616447C279490BB694334B /* Pods-repo-browserTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-repo-browserTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8E5221BF89922FCCA13A4A119F9AF3CC /* SearchUsersResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchUsersResponse.swift; path = GithubAPI/Classes/SearchAPI/Models/Users/SearchUsersResponse.swift; sourceTree = "<group>"; };
+		913501D41FF32929916DE744ACD0E4AA /* UserResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserResponse.swift; path = GithubAPI/Classes/UserAPI/Models/GetUser/UserResponse.swift; sourceTree = "<group>"; };
+		91B58B1489210B610AEB54C0F5D60EB1 /* Pods-repo-browserTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-repo-browserTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		94CA802FC27F5B2DCCE78EEAB223DB12 /* FontAwesomeSegmentedControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeSegmentedControl.swift; path = FontAwesome/FontAwesomeSegmentedControl.swift; sourceTree = "<group>"; };
+		9521BD9BB853BFF578F2E212F274CD5D /* RequestHeaderFields.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestHeaderFields.swift; path = BaseAPI/Classes/RequestHeaderFields.swift; sourceTree = "<group>"; };
+		963965AD858629A83887C6F2920FC25B /* FontAwesome.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesome.swift-prefix.pch"; sourceTree = "<group>"; };
+		9650CA800594E94027F19F3C48284D02 /* Issue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Issue.swift; path = GithubAPI/Classes/IssuesAPI/Models/CreateIssue/Issue.swift; sourceTree = "<group>"; };
+		982AA88E5B16955BDD93E8C6C6AA6175 /* Pods-repo-browser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-repo-browser.modulemap"; sourceTree = "<group>"; };
+		990438747E7762AF4433FB79A6298A1D /* SearchIssuesMilestoneCreator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchIssuesMilestoneCreator.swift; path = GithubAPI/Classes/SearchAPI/Models/Issues/SearchIssuesMilestoneCreator.swift; sourceTree = "<group>"; };
+		99C0E061C016BE8EF1A696C5B1EECB0C /* Pods-repo-browserTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-repo-browserTests-dummy.m"; sourceTree = "<group>"; };
+		9D56A31E23F2864DA0491A0F7B5DCFD0 /* GetIssueResponseMilestone.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetIssueResponseMilestone.swift; path = GithubAPI/Classes/IssuesAPI/Models/GetIssueResponse/GetIssueResponseMilestone.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A43B75C8BABBCAD22EEDD9124DDD3B57 /* RepositoryOrganization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RepositoryOrganization.swift; path = GithubAPI/Classes/RepositoriesAPI/Models/Repository/RepositoryOrganization.swift; sourceTree = "<group>"; };
+		A6E958730058030B75189FFAF50BAF8C /* FontAwesomeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeView.swift; path = FontAwesome/FontAwesomeView.swift; sourceTree = "<group>"; };
+		A89C094C4C4F4FC5A1B61F30D0F0BDF8 /* SearchIssuesLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchIssuesLabel.swift; path = GithubAPI/Classes/SearchAPI/Models/Issues/SearchIssuesLabel.swift; sourceTree = "<group>"; };
+		AAEEB48998D9BC31C075509BBE388ECE /* FontAwesomeStateRequirement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeStateRequirement.swift; path = FontAwesome/FontAwesomeStateRequirement.swift; sourceTree = "<group>"; };
+		ABD22F9AFDF61D0579C7817442C128EC /* RepositoryParent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RepositoryParent.swift; path = GithubAPI/Classes/RepositoriesAPI/Models/Repository/RepositoryParent.swift; sourceTree = "<group>"; };
+		B05F52A1DCC6C90F8786CF29F1867DC9 /* BaseAPI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BaseAPI-Info.plist"; sourceTree = "<group>"; };
+		B13B99C024C1983706C6652F341F9888 /* BaseAPI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BaseAPI-prefix.pch"; sourceTree = "<group>"; };
+		B3637F739CEF95280620B0031E55DB24 /* ResourceBundle-FontAwesome.swift-FontAwesome.swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FontAwesome.swift-FontAwesome.swift-Info.plist"; sourceTree = "<group>"; };
+		B43D069906EA7488446BA32D68DB3FCC /* String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = String.swift; path = BaseAPI/Classes/Extensions/String.swift; sourceTree = "<group>"; };
+		B4932F2CDD333C0EEDDD58EA22D22693 /* FontAwesome.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FontAwesome.swift-dummy.m"; sourceTree = "<group>"; };
+		B6627C6AE5EB81526411FB1653432E16 /* SearchCommitsTree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchCommitsTree.swift; path = GithubAPI/Classes/SearchAPI/Models/Commits/SearchCommitsTree.swift; sourceTree = "<group>"; };
+		BB6F8354E0B14E5F2D3295ACA1F25C84 /* Pods-repo-browser-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-repo-browser-acknowledgements.plist"; sourceTree = "<group>"; };
+		BBD7638B0032734BFBA147D52F2C1147 /* GetIssueResponsePermission.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetIssueResponsePermission.swift; path = GithubAPI/Classes/IssuesAPI/Models/GetIssueResponse/GetIssueResponsePermission.swift; sourceTree = "<group>"; };
+		BEAB52F6002FCAE332483565E4035369 /* GithubAPI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GithubAPI.modulemap; sourceTree = "<group>"; };
+		C27E90571098733F4BC388788181EC98 /* SearchRepositoriesResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchRepositoriesResponse.swift; path = GithubAPI/Classes/SearchAPI/Models/Repositories/SearchRepositoriesResponse.swift; sourceTree = "<group>"; };
+		C3B7C7B18EA8C7FD8E58585F62FE8933 /* Font Awesome 5 Brands-Regular-400.otf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Font Awesome 5 Brands-Regular-400.otf"; path = "FontAwesome/Font Awesome 5 Brands-Regular-400.otf"; sourceTree = "<group>"; };
+		C48BAFD6148718FA73860039D0E53E0F /* GetIssueResponseLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetIssueResponseLabel.swift; path = GithubAPI/Classes/IssuesAPI/Models/GetIssueResponse/GetIssueResponseLabel.swift; sourceTree = "<group>"; };
+		C89413DB736951BF10AB215497F4F6BD /* GetIssueResponseAssignee.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetIssueResponseAssignee.swift; path = GithubAPI/Classes/IssuesAPI/Models/GetIssueResponse/GetIssueResponseAssignee.swift; sourceTree = "<group>"; };
+		D1BC8FC2271397858B6D4EDBB4797ED3 /* SearchIssuesResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchIssuesResponse.swift; path = GithubAPI/Classes/SearchAPI/Models/Issues/SearchIssuesResponse.swift; sourceTree = "<group>"; };
+		D226B028F7638BE8DD03A5AEF41801B5 /* RepositoryContentsLink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RepositoryContentsLink.swift; path = GithubAPI/Classes/RepositoriesAPI/Models/RepositoryContents/RepositoryContentsLink.swift; sourceTree = "<group>"; };
+		D25965E2367539B9333292E671A426D0 /* FontAwesome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesome.swift; path = FontAwesome/FontAwesome.swift; sourceTree = "<group>"; };
+		D4C38F169D6511FF055D19B96668F15C /* BaseAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseAPI.swift; path = BaseAPI/Classes/BaseAPI.swift; sourceTree = "<group>"; };
+		D820B7DC9B15F0BA46EE7023BC8A1C09 /* NotificationsResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotificationsResponse.swift; path = GithubAPI/Classes/NotificationsAPI/Models/NotificationsResponse.swift; sourceTree = "<group>"; };
+		D93DB59C06129ABA5DDF3D95A51C5812 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = BaseAPI/Classes/Request.swift; sourceTree = "<group>"; };
+		DB0E01C792508BFDCDD9A2461D962B28 /* RepositoryPermission.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RepositoryPermission.swift; path = GithubAPI/Classes/RepositoriesAPI/Models/Repository/RepositoryPermission.swift; sourceTree = "<group>"; };
+		DE5684697D2BC17F7E469B452E38CDE7 /* NotificationsOwner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotificationsOwner.swift; path = GithubAPI/Classes/NotificationsAPI/Models/NotificationsOwner.swift; sourceTree = "<group>"; };
+		DE6949261B5EDACF3229EADB604A9579 /* FontAwesomeExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeExtension.swift; path = FontAwesome/FontAwesomeExtension.swift; sourceTree = "<group>"; };
+		DEE2A3AD37D4A14B8103127D85F7AD7B /* GithubAPI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GithubAPI-umbrella.h"; sourceTree = "<group>"; };
+		E1EA93EE25B5522171BFC04DA84C0CA4 /* RepositoriesAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RepositoriesAPI.swift; path = GithubAPI/Classes/RepositoriesAPI/RepositoriesAPI.swift; sourceTree = "<group>"; };
+		E2E03ADCF74F9291FBF49B1DBD3ADEC9 /* GithubAPI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GithubAPI.xcconfig; sourceTree = "<group>"; };
+		E62ED4B5BD0F304DD265BA126341C465 /* UpdateUser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UpdateUser.swift; path = GithubAPI/Classes/UserAPI/Models/UpdateUser/UpdateUser.swift; sourceTree = "<group>"; };
+		E65531C33B5F54FFC739D9C150DFCD1F /* GithubAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GithubAPI.framework; path = GithubAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E790524FA70D43C376824CA0B9052728 /* GetIssueResponsePullRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetIssueResponsePullRequest.swift; path = GithubAPI/Classes/IssuesAPI/Models/GetIssueResponse/GetIssueResponsePullRequest.swift; sourceTree = "<group>"; };
+		E7C20649FAF4BEC0AA21AB8D6DE97ACA /* OtherUserError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OtherUserError.swift; path = GithubAPI/Classes/UserAPI/Models/GetOtherUser/OtherUserError.swift; sourceTree = "<group>"; };
+		E8FFB5AA1852D837383511EB4E5377CB /* Pods-repo-browser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-repo-browser-dummy.m"; sourceTree = "<group>"; };
+		E97E6C982A4A349ACE1C2A4C5D2D2ABD /* Font Awesome 5 Free-Solid-900.otf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Font Awesome 5 Free-Solid-900.otf"; path = "FontAwesome/Font Awesome 5 Free-Solid-900.otf"; sourceTree = "<group>"; };
+		EA5BF940E55803B87C8B9690BD53ACE1 /* Pods-repo-browserTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-repo-browserTests-Info.plist"; sourceTree = "<group>"; };
+		ECC79D70F71D613E6364665B97A3BB1D /* SearchRepositoriesItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchRepositoriesItem.swift; path = GithubAPI/Classes/SearchAPI/Models/Repositories/SearchRepositoriesItem.swift; sourceTree = "<group>"; };
+		ED7300918E4A61AB996599384EB13F19 /* SearchIssuesUser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchIssuesUser.swift; path = GithubAPI/Classes/SearchAPI/Models/Issues/SearchIssuesUser.swift; sourceTree = "<group>"; };
+		F21B2AFF65841EF1CFD026A348DDC352 /* SearchCodeItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchCodeItem.swift; path = GithubAPI/Classes/SearchAPI/Models/Code/SearchCodeItem.swift; sourceTree = "<group>"; };
+		F28A77C1226E2541EAF7B6E3B589E6B0 /* RepositoryReponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RepositoryReponse.swift; path = GithubAPI/Classes/RepositoriesAPI/Models/Repository/RepositoryReponse.swift; sourceTree = "<group>"; };
+		F666121A0BCB415E5A5E0D316427B8DF /* BaseAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BaseAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6BE79EE9C7351D9C0E533C6A073366C /* URLSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLSession.swift; path = BaseAPI/Classes/Extensions/URLSession.swift; sourceTree = "<group>"; };
+		F95662181244C9031710CF9B01917CFB /* SearchCommitsRepository.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchCommitsRepository.swift; path = GithubAPI/Classes/SearchAPI/Models/Commits/SearchCommitsRepository.swift; sourceTree = "<group>"; };
+		F9F6A30DB686A598075A7B008B5171B0 /* FontAwesome.swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FontAwesome.swift.xcconfig; sourceTree = "<group>"; };
+		FC7AA0CAD1AD4BF93E718857932202A1 /* RepositoryContentsReponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RepositoryContentsReponse.swift; path = GithubAPI/Classes/RepositoriesAPI/Models/RepositoryContents/RepositoryContentsReponse.swift; sourceTree = "<group>"; };
+		FCE5B6D46A8F09E5E98E64960E0C7975 /* Authentication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Authentication.swift; path = GithubAPI/Classes/Authentication.swift; sourceTree = "<group>"; };
+		FD1A53F9C582300BF9BEC8BE8715B39D /* RequestMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestMethod.swift; path = BaseAPI/Classes/RequestMethod.swift; sourceTree = "<group>"; };
+		FDF05E63708FF8AD75B5DDBA0DB7E584 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E812F59647F5D23424D548F66DAB80F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E268FC52FFFD64E7F663DA8146E1A73 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CFEFA757657368FFB8418537440C22F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF70BDBD27A8A9C1B4139CA6FF0E1770 /* BaseAPI.framework in Frameworks */,
+				AE232955C42F0DC3DD075C740985880B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADEA3AE518E8E9D076B70ECD1599664F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA1BA5BBAEFF939D2307846737E2A4F9 /* CoreText.framework in Frameworks */,
+				85D37B2D1F2D31A1E66838B0EFC3CB84 /* Foundation.framework in Frameworks */,
+				2C3D398884B8D56C87CA9E59C7199DB1 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B80F0A693527F3A42E04FA6078A787D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C69F337713A37CF436B8E5B73B0E812A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1D2CF048278DC004B9D2DF2A6F34D8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA74662429C309950C95E727A75220CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6B4D88EC67F9CC4390F978C3982D88F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		273B48E0267D4D859F21D95008507928 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				85E5DDA4B1E8FF372E3CF2F1C879E831 /* Pods-repo-browser */,
+				C3B13D8E434D73E767D9DCEF870F74B4 /* Pods-repo-browserTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		49D016198CDEF7912B670C973F89A380 /* GithubAPI */ = {
+			isa = PBXGroup;
+			children = (
+				47D83DD904C32C1AE90361D55ABA473D /* AllUsersResponse.swift */,
+				FCE5B6D46A8F09E5E98E64960E0C7975 /* Authentication.swift */,
+				370A0F250936A9FEB86DBC023932142A /* GetIssueResponse.swift */,
+				C89413DB736951BF10AB215497F4F6BD /* GetIssueResponseAssignee.swift */,
+				C48BAFD6148718FA73860039D0E53E0F /* GetIssueResponseLabel.swift */,
+				9D56A31E23F2864DA0491A0F7B5DCFD0 /* GetIssueResponseMilestone.swift */,
+				BBD7638B0032734BFBA147D52F2C1147 /* GetIssueResponsePermission.swift */,
+				E790524FA70D43C376824CA0B9052728 /* GetIssueResponsePullRequest.swift */,
+				1CB8B438033A7E71D6C40669C1D7FEB7 /* GetIssueResponseRepository.swift */,
+				18014FC9EA4C9FC3381857970F456CAF /* GithubAPI.swift */,
+				9650CA800594E94027F19F3C48284D02 /* Issue.swift */,
+				0CF3813EAC175064218EC4D41A15A6DE /* IssuesAPI.swift */,
+				00EB999B16F20D08A68169AE737C9B7C /* NotificationsAPI.swift */,
+				DE5684697D2BC17F7E469B452E38CDE7 /* NotificationsOwner.swift */,
+				09B28D2E5301B7426793D3371B4AB945 /* NotificationsRepository.swift */,
+				D820B7DC9B15F0BA46EE7023BC8A1C09 /* NotificationsResponse.swift */,
+				07BA86705C76C7720658A124E7C364D8 /* NotificationsSubject.swift */,
+				E7C20649FAF4BEC0AA21AB8D6DE97ACA /* OtherUserError.swift */,
+				86EEF5018D278B55346B04F17536FD23 /* OtherUserResponse.swift */,
+				E1EA93EE25B5522171BFC04DA84C0CA4 /* RepositoriesAPI.swift */,
+				2EE3CD77E1915B647EA42E8C857100F3 /* RepositoriesContentsAPI.swift */,
+				D226B028F7638BE8DD03A5AEF41801B5 /* RepositoryContentsLink.swift */,
+				FC7AA0CAD1AD4BF93E718857932202A1 /* RepositoryContentsReponse.swift */,
+				08B83933FD3632C8D3D73262888A1EDE /* RepositoryLicense.swift */,
+				A43B75C8BABBCAD22EEDD9124DDD3B57 /* RepositoryOrganization.swift */,
+				7D4AFFF41509292A23A20AC0C3164693 /* RepositoryOwner.swift */,
+				ABD22F9AFDF61D0579C7817442C128EC /* RepositoryParent.swift */,
+				DB0E01C792508BFDCDD9A2461D962B28 /* RepositoryPermission.swift */,
+				F28A77C1226E2541EAF7B6E3B589E6B0 /* RepositoryReponse.swift */,
+				211C690C5CE83D22BAB3DE1A5C884FCB /* SearchAPI.swift */,
+				F21B2AFF65841EF1CFD026A348DDC352 /* SearchCodeItem.swift */,
+				71CB91F22EC23E766F63B27AEACCBEF5 /* SearchCodeOwner.swift */,
+				815D08DD895FDAB7AB1310472525418D /* SearchCodeRepository.swift */,
+				33C59CE97CBF53A79C9FA566BDCB38CC /* SearchCodeResponse.swift */,
+				73A563861AAC1D746D83F436606272EF /* SearchCommitsAuthor.swift */,
+				672F733751275C03EBC2705EE14CEF99 /* SearchCommitsCommit.swift */,
+				78E5E1024979138E18666926A1EEE970 /* SearchCommitsCommitter.swift */,
+				543DD01AE19C645E0EE393C04A398203 /* SearchCommitsItem.swift */,
+				0CD6D5535A0E6A24126DF453CF9B3D18 /* SearchCommitsOwner.swift */,
+				428AEA70261F330B24F03BF91DDA9DB9 /* SearchCommitsParent.swift */,
+				F95662181244C9031710CF9B01917CFB /* SearchCommitsRepository.swift */,
+				88643157190C85D1A69948876A336698 /* SearchCommitsResponse.swift */,
+				B6627C6AE5EB81526411FB1653432E16 /* SearchCommitsTree.swift */,
+				0B94301FC267EDB049134FC42162D1D2 /* SearchIssuesAssignee.swift */,
+				193A815D32F7ECE89D8E894E7AFD8F6E /* SearchIssuesItem.swift */,
+				A89C094C4C4F4FC5A1B61F30D0F0BDF8 /* SearchIssuesLabel.swift */,
+				7C8440C189B14D154A920AD0E0823DC5 /* SearchIssuesMilestone.swift */,
+				990438747E7762AF4433FB79A6298A1D /* SearchIssuesMilestoneCreator.swift */,
+				7560A0C8214081698EFF3E528B7B5637 /* SearchIssuesPullRequest.swift */,
+				D1BC8FC2271397858B6D4EDBB4797ED3 /* SearchIssuesResponse.swift */,
+				ED7300918E4A61AB996599384EB13F19 /* SearchIssuesUser.swift */,
+				ECC79D70F71D613E6364665B97A3BB1D /* SearchRepositoriesItem.swift */,
+				73D6B8A5D4089D2E0BDC68F75DC5BBBA /* SearchRepositoriesOwner.swift */,
+				C27E90571098733F4BC388788181EC98 /* SearchRepositoriesResponse.swift */,
+				88FEEFD9F19424230CF56C364FC8019E /* SearchUsersItem.swift */,
+				8E5221BF89922FCCA13A4A119F9AF3CC /* SearchUsersResponse.swift */,
+				E62ED4B5BD0F304DD265BA126341C465 /* UpdateUser.swift */,
+				2CCA7E6C76A31A192DCC0231F505CF1D /* UserAPI.swift */,
+				42FD7449CBA2A3F1A248D4A3EBE5A6A8 /* UserPlan.swift */,
+				913501D41FF32929916DE744ACD0E4AA /* UserResponse.swift */,
+				5B134C37F333F6CE3E6996D96C517344 /* Support Files */,
+			);
+			name = GithubAPI;
+			path = GithubAPI;
+			sourceTree = "<group>";
+		};
+		5B134C37F333F6CE3E6996D96C517344 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEAB52F6002FCAE332483565E4035369 /* GithubAPI.modulemap */,
+				E2E03ADCF74F9291FBF49B1DBD3ADEC9 /* GithubAPI.xcconfig */,
+				38661CF14A0D1C62B8F847BB06E1AAC6 /* GithubAPI-dummy.m */,
+				03A98DFC3AA089C962A03F5E415974D1 /* GithubAPI-Info.plist */,
+				672D00E4ADE84997310B961A41A044CF /* GithubAPI-prefix.pch */,
+				DEE2A3AD37D4A14B8103127D85F7AD7B /* GithubAPI-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GithubAPI";
+			sourceTree = "<group>";
+		};
+		5C09C5130BEFC873327B51D2144AD8D6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C3B7C7B18EA8C7FD8E58585F62FE8933 /* Font Awesome 5 Brands-Regular-400.otf */,
+				0E0D4C43FBBD247541781AFCF0F9062C /* Font Awesome 5 Free-Regular-400.otf */,
+				E97E6C982A4A349ACE1C2A4C5D2D2ABD /* Font Awesome 5 Free-Solid-900.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7813A353ECA5D75EF8EB1433F120B645 /* BaseAPI */ = {
+			isa = PBXGroup;
+			children = (
+				D4C38F169D6511FF055D19B96668F15C /* BaseAPI.swift */,
+				4DAAA6872FA9696668C80BE955286AD5 /* CharacterSet.swift */,
+				D93DB59C06129ABA5DDF3D95A51C5812 /* Request.swift */,
+				9521BD9BB853BFF578F2E212F274CD5D /* RequestHeaderFields.swift */,
+				FD1A53F9C582300BF9BEC8BE8715B39D /* RequestMethod.swift */,
+				B43D069906EA7488446BA32D68DB3FCC /* String.swift */,
+				F6BE79EE9C7351D9C0E533C6A073366C /* URLSession.swift */,
+				F9D1359A5778BDBFA874AC57AE026F10 /* Support Files */,
+			);
+			name = BaseAPI;
+			path = BaseAPI;
+			sourceTree = "<group>";
+		};
+		85E5DDA4B1E8FF372E3CF2F1C879E831 /* Pods-repo-browser */ = {
+			isa = PBXGroup;
+			children = (
+				982AA88E5B16955BDD93E8C6C6AA6175 /* Pods-repo-browser.modulemap */,
+				6378F66F3F96CCEC39EF19B6ADEC0588 /* Pods-repo-browser-acknowledgements.markdown */,
+				BB6F8354E0B14E5F2D3295ACA1F25C84 /* Pods-repo-browser-acknowledgements.plist */,
+				E8FFB5AA1852D837383511EB4E5377CB /* Pods-repo-browser-dummy.m */,
+				1950D942633BB6A2C4C3CAC9FAB7A34C /* Pods-repo-browser-frameworks.sh */,
+				6998085A66C69CD85DCA1D7BB31BB2C8 /* Pods-repo-browser-Info.plist */,
+				67A1A8533E902C5F4593CC4717DB3DAF /* Pods-repo-browser-umbrella.h */,
+				4E800923DD2852F37D1E9C3AD5BD665E /* Pods-repo-browser.debug.xcconfig */,
+				87A32E8F3DB14C2B4CABFC3F8940EECA /* Pods-repo-browser.release.xcconfig */,
+			);
+			name = "Pods-repo-browser";
+			path = "Target Support Files/Pods-repo-browser";
+			sourceTree = "<group>";
+		};
+		88216C1D303516C9DB5DD517C8C4B1D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				422F605E07F517F1BB63321CE5976B30 /* BaseAPI.framework */,
+				3DA4F5DC4EB6E9DF6B4859D27EF8C9F5 /* FontAwesome.swift.bundle */,
+				28A3CCFDC77829170B0B12EB9E3391CF /* FontAwesome_swift.framework */,
+				E65531C33B5F54FFC739D9C150DFCD1F /* GithubAPI.framework */,
+				4D3F98183AA0F5E8982EB010565A9B2E /* Pods_repo_browser.framework */,
+				71AC37A9A8AB89493EB037875F2FA2D2 /* Pods_repo_browserTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97F0916EDF6338803DC4C3D14CDF21CB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				05408D879768109798F40F7E2C8D53CD /* FontAwesome.swift.modulemap */,
+				F9F6A30DB686A598075A7B008B5171B0 /* FontAwesome.swift.xcconfig */,
+				B4932F2CDD333C0EEDDD58EA22D22693 /* FontAwesome.swift-dummy.m */,
+				14F37A1A5A8CDB67E0BD402419A09F58 /* FontAwesome.swift-Info.plist */,
+				963965AD858629A83887C6F2920FC25B /* FontAwesome.swift-prefix.pch */,
+				01665A7C7DA538170E6484E4B52DBD2F /* FontAwesome.swift-umbrella.h */,
+				B3637F739CEF95280620B0031E55DB24 /* ResourceBundle-FontAwesome.swift-FontAwesome.swift-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FontAwesome.swift";
+			sourceTree = "<group>";
+		};
+		A6D3EE04A8962E0886EF2211032ECCFC /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0F6A9C96229F38FCAAA98F08A9456DCB /* CoreText.framework */,
+				FDF05E63708FF8AD75B5DDBA0DB7E584 /* Foundation.framework */,
+				13694523D54322089F8D63BA65C36B8A /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B92E69CBD1714607B57FBF5E591D7AB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F666121A0BCB415E5A5E0D316427B8DF /* BaseAPI.framework */,
+				A6D3EE04A8962E0886EF2211032ECCFC /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3B13D8E434D73E767D9DCEF870F74B4 /* Pods-repo-browserTests */ = {
+			isa = PBXGroup;
+			children = (
+				28AC9844D7B68190816E1575BB95D03C /* Pods-repo-browserTests.modulemap */,
+				8C8217C4EB616447C279490BB694334B /* Pods-repo-browserTests-acknowledgements.markdown */,
+				91B58B1489210B610AEB54C0F5D60EB1 /* Pods-repo-browserTests-acknowledgements.plist */,
+				99C0E061C016BE8EF1A696C5B1EECB0C /* Pods-repo-browserTests-dummy.m */,
+				EA5BF940E55803B87C8B9690BD53ACE1 /* Pods-repo-browserTests-Info.plist */,
+				647374E79526524FD3BDB93AD5B05D1A /* Pods-repo-browserTests-umbrella.h */,
+				4507632D786216ADBD3D3D3BA1F44FE4 /* Pods-repo-browserTests.debug.xcconfig */,
+				2B79AF7CF47DE48A0739889316A4B9A6 /* Pods-repo-browserTests.release.xcconfig */,
+			);
+			name = "Pods-repo-browserTests";
+			path = "Target Support Files/Pods-repo-browserTests";
+			sourceTree = "<group>";
+		};
+		C540621E1F6E2856088A81814472EA31 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7813A353ECA5D75EF8EB1433F120B645 /* BaseAPI */,
+				D66D7826BDF82F7E8481F0094D28D2C8 /* FontAwesome.swift */,
+				49D016198CDEF7912B670C973F89A380 /* GithubAPI */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				B92E69CBD1714607B57FBF5E591D7AB0 /* Frameworks */,
+				C540621E1F6E2856088A81814472EA31 /* Pods */,
+				88216C1D303516C9DB5DD517C8C4B1D6 /* Products */,
+				273B48E0267D4D859F21D95008507928 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D66D7826BDF82F7E8481F0094D28D2C8 /* FontAwesome.swift */ = {
+			isa = PBXGroup;
+			children = (
+				3EAB59DB5D1B377C9EF6424D52CE8514 /* Enum.swift */,
+				D25965E2367539B9333292E671A426D0 /* FontAwesome.swift */,
+				19B19C795F88040DAA4792BB92EFE63C /* FontAwesomeBarButtonItem.swift */,
+				DE6949261B5EDACF3229EADB604A9579 /* FontAwesomeExtension.swift */,
+				20A476EA7437EA49348BC9B6A678D79F /* FontAwesomeImageRepresentable.swift */,
+				08B86876311D721209478A5FB5215E52 /* FontAwesomeImageView.swift */,
+				94CA802FC27F5B2DCCE78EEAB223DB12 /* FontAwesomeSegmentedControl.swift */,
+				AAEEB48998D9BC31C075509BBE388ECE /* FontAwesomeStateRequirement.swift */,
+				0B54DFD4AD35F6B155F029883ED684F1 /* FontAwesomeTabBarItem.swift */,
+				754DBDECF7C646AF72D9E4252904E5B0 /* FontAwesomeTextRepresentable.swift */,
+				A6E958730058030B75189FFAF50BAF8C /* FontAwesomeView.swift */,
+				5C09C5130BEFC873327B51D2144AD8D6 /* Resources */,
+				97F0916EDF6338803DC4C3D14CDF21CB /* Support Files */,
+			);
+			name = FontAwesome.swift;
+			path = FontAwesome.swift;
+			sourceTree = "<group>";
+		};
+		F9D1359A5778BDBFA874AC57AE026F10 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4415101E29B55154EFEFA4C78FD2E646 /* BaseAPI.modulemap */,
+				6FF0E886B2AC33D9FFCF5B626363A41B /* BaseAPI.xcconfig */,
+				4EBCAFF59210612C598D2FF6FF6FB4B0 /* BaseAPI-dummy.m */,
+				B05F52A1DCC6C90F8786CF29F1867DC9 /* BaseAPI-Info.plist */,
+				B13B99C024C1983706C6652F341F9888 /* BaseAPI-prefix.pch */,
+				7A097DC799F491432A1CA60C149A22AA /* BaseAPI-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BaseAPI";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0DD251E879303CF624CD48A4B77725C1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4563F38E9C355744C1C466413CD0931C /* BaseAPI-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EEC2A165AC01C2DF84F6D9AF1F9C879 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9527B0AC77733FD2F7F54BCFEF8358FF /* GithubAPI-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13A606C90AFD158705B6FCFCE3972650 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				651E8FA71DF52988E4F0B4FA2834F675 /* Pods-repo-browserTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		873002DC3BED3F11F9040EA090382279 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7199F92FBB50BD74ECCC4BFD95B760CF /* FontAwesome.swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB0B05009633A5DA8EDC78FA16F74F3B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A1534730688D0FB9158F97421D70ADC /* Pods-repo-browser-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1F23F2351DC311504812F672ADDDA30E /* Pods-repo-browser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F31E1A9986B7D6B3BC558F594BCD9AF7 /* Build configuration list for PBXNativeTarget "Pods-repo-browser" */;
+			buildPhases = (
+				AB0B05009633A5DA8EDC78FA16F74F3B /* Headers */,
+				6E2721D9022E5269381F8CE7E623FA59 /* Sources */,
+				0E812F59647F5D23424D548F66DAB80F /* Frameworks */,
+				165BC03A1187476A782AC4F61285C3D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB9D120258AFA7000E3A2E4CF13F86E3 /* PBXTargetDependency */,
+				374C607E3B4565E195D305B3A1A387FD /* PBXTargetDependency */,
+				D0175C823B1BD68487FDA7C123117C8C /* PBXTargetDependency */,
+			);
+			name = "Pods-repo-browser";
+			productName = "Pods-repo-browser";
+			productReference = 4D3F98183AA0F5E8982EB010565A9B2E /* Pods_repo_browser.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		46612857DE0B03605DCFF866695FF265 /* GithubAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1742123A90829FAB352CA176B949E415 /* Build configuration list for PBXNativeTarget "GithubAPI" */;
+			buildPhases = (
+				0EEC2A165AC01C2DF84F6D9AF1F9C879 /* Headers */,
+				01E4745A955F8CDE64BEF5E213F010D6 /* Sources */,
+				8CFEFA757657368FFB8418537440C22F /* Frameworks */,
+				87FE4B2CD4289B10CFE8C7DAE45A5073 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D2BCE2A873ACCD4EE49C8B68EF51591 /* PBXTargetDependency */,
+			);
+			name = GithubAPI;
+			productName = GithubAPI;
+			productReference = E65531C33B5F54FFC739D9C150DFCD1F /* GithubAPI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4DC20DD2E50259D674257304EC016C93 /* FontAwesome.swift-FontAwesome.swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41C253EBFE15226002761A36F667557C /* Build configuration list for PBXNativeTarget "FontAwesome.swift-FontAwesome.swift" */;
+			buildPhases = (
+				4EDBF16C6993CAFC8201E9B3D3B71B3D /* Sources */,
+				E6B4D88EC67F9CC4390F978C3982D88F /* Frameworks */,
+				7512763882CF1F5620ED6284BCC635D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FontAwesome.swift-FontAwesome.swift";
+			productName = "FontAwesome.swift-FontAwesome.swift";
+			productReference = 3DA4F5DC4EB6E9DF6B4859D27EF8C9F5 /* FontAwesome.swift.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		52A3A9E9E88D73EBB7A6F7550E196A91 /* Pods-repo-browserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A2535E26B6B338E427B5CD0A1DA6451 /* Build configuration list for PBXNativeTarget "Pods-repo-browserTests" */;
+			buildPhases = (
+				13A606C90AFD158705B6FCFCE3972650 /* Headers */,
+				AE001D7541F564239F762710E8888B1C /* Sources */,
+				D1D2CF048278DC004B9D2DF2A6F34D8D /* Frameworks */,
+				7AF16290E1CD75B078A372CC02B1F778 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D001B45CE83486D9263885886849856C /* PBXTargetDependency */,
+			);
+			name = "Pods-repo-browserTests";
+			productName = "Pods-repo-browserTests";
+			productReference = 71AC37A9A8AB89493EB037875F2FA2D2 /* Pods_repo_browserTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6D3AF0C6AF53B8F230647F79054EF73F /* BaseAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 359249C1DC1077DCA0FE6EC62255C0C1 /* Build configuration list for PBXNativeTarget "BaseAPI" */;
+			buildPhases = (
+				0DD251E879303CF624CD48A4B77725C1 /* Headers */,
+				72E579ED0175282EA39D6FF29102BA36 /* Sources */,
+				B80F0A693527F3A42E04FA6078A787D4 /* Frameworks */,
+				45A9B4B979E9D6A70322F01F229A4B64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BaseAPI;
+			productName = BaseAPI;
+			productReference = 422F605E07F517F1BB63321CE5976B30 /* BaseAPI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BB240150692F32EC312F3CF346C8B9D1 /* FontAwesome.swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C08BB7EBEAAF5EA3ADA8486A4166A737 /* Build configuration list for PBXNativeTarget "FontAwesome.swift" */;
+			buildPhases = (
+				873002DC3BED3F11F9040EA090382279 /* Headers */,
+				BB6A28F0BB13388F2FCE79F414B488F0 /* Sources */,
+				ADEA3AE518E8E9D076B70ECD1599664F /* Frameworks */,
+				B78B96440B5C1CFC4865A76626451EF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97585A8A5359A16373A49A0B954DA6A1 /* PBXTargetDependency */,
+			);
+			name = FontAwesome.swift;
+			productName = FontAwesome.swift;
+			productReference = 28A3CCFDC77829170B0B12EB9E3391CF /* FontAwesome_swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 88216C1D303516C9DB5DD517C8C4B1D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D3AF0C6AF53B8F230647F79054EF73F /* BaseAPI */,
+				BB240150692F32EC312F3CF346C8B9D1 /* FontAwesome.swift */,
+				4DC20DD2E50259D674257304EC016C93 /* FontAwesome.swift-FontAwesome.swift */,
+				46612857DE0B03605DCFF866695FF265 /* GithubAPI */,
+				1F23F2351DC311504812F672ADDDA30E /* Pods-repo-browser */,
+				52A3A9E9E88D73EBB7A6F7550E196A91 /* Pods-repo-browserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		165BC03A1187476A782AC4F61285C3D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45A9B4B979E9D6A70322F01F229A4B64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7512763882CF1F5620ED6284BCC635D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF96B616BE75A442019963B01D73D91C /* Font Awesome 5 Brands-Regular-400.otf in Resources */,
+				D28A7A864BAD82F9F7EB2E84B03D3AEB /* Font Awesome 5 Free-Regular-400.otf in Resources */,
+				70B81B938724ACD63F905A070523E07C /* Font Awesome 5 Free-Solid-900.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AF16290E1CD75B078A372CC02B1F778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87FE4B2CD4289B10CFE8C7DAE45A5073 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B78B96440B5C1CFC4865A76626451EF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68BAC7962A168D4583274C0DD9325578 /* FontAwesome.swift.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01E4745A955F8CDE64BEF5E213F010D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C93B9E977D03236A6601B33337A7DFB /* AllUsersResponse.swift in Sources */,
+				788CF91D4B92F5E5A3CBB9C5007A55B4 /* Authentication.swift in Sources */,
+				3AB755DF1D88B014DD3D5DAD755FA6DE /* GetIssueResponse.swift in Sources */,
+				CB47FC55ADA39CF91F689802CF5BC1DD /* GetIssueResponseAssignee.swift in Sources */,
+				FEB652926056A7677F4672027618EB01 /* GetIssueResponseLabel.swift in Sources */,
+				9B07F953B28919F1FAED988C5952CA3C /* GetIssueResponseMilestone.swift in Sources */,
+				FCD5AA681298CFDC1DFA166D55ABF216 /* GetIssueResponsePermission.swift in Sources */,
+				232CFE4F19BD7BCABB942B19253766DD /* GetIssueResponsePullRequest.swift in Sources */,
+				0F38DD5AD90DFBBF8047B080A7D47158 /* GetIssueResponseRepository.swift in Sources */,
+				FD3F707097FE280DB40038660B8107BA /* GithubAPI-dummy.m in Sources */,
+				A90D5DBB9CCF37931BA57E468295D1D9 /* GithubAPI.swift in Sources */,
+				F7A64BCE2B95700F334864683C606171 /* Issue.swift in Sources */,
+				EB9066F34D45DE87C2751834427DE4F8 /* IssuesAPI.swift in Sources */,
+				F298C239B4D051C0C832C672817A28C8 /* NotificationsAPI.swift in Sources */,
+				0E8855C26F318647C231758045C1983D /* NotificationsOwner.swift in Sources */,
+				66F009555E30BE7745CFB05BC6E9F2BF /* NotificationsRepository.swift in Sources */,
+				C14DE531101551DCCADEF4AC968A561B /* NotificationsResponse.swift in Sources */,
+				DD45966ACBDE28A824052DD6CF815A07 /* NotificationsSubject.swift in Sources */,
+				D46FE73409B0F98ED2E67F6A335C1CDA /* OtherUserError.swift in Sources */,
+				14C81AA137EA2DAE2426B768131DB4A9 /* OtherUserResponse.swift in Sources */,
+				7D61378E17B4B7C316FD3B4480C03662 /* RepositoriesAPI.swift in Sources */,
+				F519C653A63F9500027D67A0E9C8E729 /* RepositoriesContentsAPI.swift in Sources */,
+				A12B4F8A65941B16271C0190DF8C761B /* RepositoryContentsLink.swift in Sources */,
+				F33FA7956A50FE5413E228AC9C2F09D7 /* RepositoryContentsReponse.swift in Sources */,
+				1EEFF185FA5311E4C4885BD65B1134B7 /* RepositoryLicense.swift in Sources */,
+				2673331D8D7DAB0D7D02159C35952D38 /* RepositoryOrganization.swift in Sources */,
+				B4525E15F08835F3A89706F96040B7D9 /* RepositoryOwner.swift in Sources */,
+				5133EE0F311924DBAF244088F1EB3B34 /* RepositoryParent.swift in Sources */,
+				72E5B4146696A4B0D451094782475E8A /* RepositoryPermission.swift in Sources */,
+				913E9AE838A8838EA11B030239C2B9EA /* RepositoryReponse.swift in Sources */,
+				86805C57C06CC50FC1922FC110B44A47 /* SearchAPI.swift in Sources */,
+				4212E7EABF6CD40B3526BF273B39F1CD /* SearchCodeItem.swift in Sources */,
+				E0F3265F4957AADB79CDDC072EF345FB /* SearchCodeOwner.swift in Sources */,
+				08159CD179DCED0C375F14CA98C039D6 /* SearchCodeRepository.swift in Sources */,
+				B146028E135EDF54440DB4E9FB4BEC05 /* SearchCodeResponse.swift in Sources */,
+				CDA9BF9FC107A710EFD3C4CDD7A2D25C /* SearchCommitsAuthor.swift in Sources */,
+				EABCAC0C60BD2F0ED2862113516EEB33 /* SearchCommitsCommit.swift in Sources */,
+				F82D00AA21061B78FBEA51A3EFE25B6A /* SearchCommitsCommitter.swift in Sources */,
+				2F3921F0DB512FDBB6D2010D0110AE81 /* SearchCommitsItem.swift in Sources */,
+				5C78932F992FFA9FDAAAA5B876E91897 /* SearchCommitsOwner.swift in Sources */,
+				73E1EC204310037C102BBA77CE4249AE /* SearchCommitsParent.swift in Sources */,
+				D6E42D393BE031D598821E3E8EDA7EB3 /* SearchCommitsRepository.swift in Sources */,
+				647DB6CFC90443E9FA706578F8424BD3 /* SearchCommitsResponse.swift in Sources */,
+				F0F524B4E07EE9355BDF57A77A485B85 /* SearchCommitsTree.swift in Sources */,
+				6E9EF0B7BBC22535EA6B3DF633D7F1C7 /* SearchIssuesAssignee.swift in Sources */,
+				9814ED7667154CBEAE1A36AA6B1A732B /* SearchIssuesItem.swift in Sources */,
+				4C391DC98A061940CFA79FFCC74FC729 /* SearchIssuesLabel.swift in Sources */,
+				202A26BD2D598BBAF6EF53A013D3E2ED /* SearchIssuesMilestone.swift in Sources */,
+				75FF8A688A9A8F326F4CAB98E2D11A93 /* SearchIssuesMilestoneCreator.swift in Sources */,
+				FEDC789E37D1EC291001B9608B1121EB /* SearchIssuesPullRequest.swift in Sources */,
+				A1FC0B86096106C0B40258A49835FACC /* SearchIssuesResponse.swift in Sources */,
+				C66408B02DE96F22CC6326EDAA6AB0F1 /* SearchIssuesUser.swift in Sources */,
+				788320D421344981750875F4CB906779 /* SearchRepositoriesItem.swift in Sources */,
+				9D3358724A6243C10C77A0C39CEBBDFF /* SearchRepositoriesOwner.swift in Sources */,
+				78A53E5FFDCB63A2F01639B9E138A0F4 /* SearchRepositoriesResponse.swift in Sources */,
+				F563A4AC381BF940F177A0AD729158C1 /* SearchUsersItem.swift in Sources */,
+				ECA700044852803D09A967E67981971F /* SearchUsersResponse.swift in Sources */,
+				D387746722E5E6E58C1BCACCE26B71AE /* UpdateUser.swift in Sources */,
+				BA5DF713E9230DD94124FEB48DF87EB1 /* UserAPI.swift in Sources */,
+				2EF72FBB034A5E99CDAD807D168F44AF /* UserPlan.swift in Sources */,
+				D8C2F22E5A3CF849D9D7A8D4A63C93CF /* UserResponse.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EDBF16C6993CAFC8201E9B3D3B71B3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E2721D9022E5269381F8CE7E623FA59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C02EE2DE8BC05D2205D71C81AE3C7B6 /* Pods-repo-browser-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72E579ED0175282EA39D6FF29102BA36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F51CEAC0DC117893227F3E8F2EDDAC8 /* BaseAPI-dummy.m in Sources */,
+				E3A1B6F5E3E520FD7EDCCB64B29B0989 /* BaseAPI.swift in Sources */,
+				555AB8CA91EB0CECA0A691FFA527BEB0 /* CharacterSet.swift in Sources */,
+				DA0DA4A3A99962BF2193212BE9CBE3E0 /* Request.swift in Sources */,
+				108B1A6C1FDEDC82946AFBB823ACC431 /* RequestHeaderFields.swift in Sources */,
+				4A7EEFB7D04DAE41C470584266FBE160 /* RequestMethod.swift in Sources */,
+				45C658FC3A2FEA35B060EFB42A416FFC /* String.swift in Sources */,
+				87A221D795BA9C3EC1BE7B26B14C3ABA /* URLSession.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE001D7541F564239F762710E8888B1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4817FAC7315E97F50AD95172CBC129 /* Pods-repo-browserTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB6A28F0BB13388F2FCE79F414B488F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9E6F9673A9059F6839D7CFC075DFFA0 /* Enum.swift in Sources */,
+				7BA1AB4574A6467A5544A127D278A643 /* FontAwesome.swift in Sources */,
+				DED224934E770D48544184BEC3B714DF /* FontAwesome.swift-dummy.m in Sources */,
+				28757E4AD554CBD39E97BBCA1328BFC5 /* FontAwesomeBarButtonItem.swift in Sources */,
+				AA0D656B4A636305DA1BC1F9B73408DD /* FontAwesomeExtension.swift in Sources */,
+				E0E091D97C082FEBA802567A606B192A /* FontAwesomeImageRepresentable.swift in Sources */,
+				04FFD0BA6FEE23BAAD7EFB0FBD51D302 /* FontAwesomeImageView.swift in Sources */,
+				E219C67509E6F8C782C265B543791747 /* FontAwesomeSegmentedControl.swift in Sources */,
+				C2FD60C5A2C399607870BDF82E20F679 /* FontAwesomeStateRequirement.swift in Sources */,
+				1629B85F0ECAB6A283ACF0CB76277184 /* FontAwesomeTabBarItem.swift in Sources */,
+				88C94D84F4BB5DC67E71F90E793BA965 /* FontAwesomeTextRepresentable.swift in Sources */,
+				AE4B2E001DEFDA2921865B83644F0B30 /* FontAwesomeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D2BCE2A873ACCD4EE49C8B68EF51591 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BaseAPI;
+			target = 6D3AF0C6AF53B8F230647F79054EF73F /* BaseAPI */;
+			targetProxy = 2DF228A25FA6E5262C7EB2BF530B8371 /* PBXContainerItemProxy */;
+		};
+		374C607E3B4565E195D305B3A1A387FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FontAwesome.swift;
+			target = BB240150692F32EC312F3CF346C8B9D1 /* FontAwesome.swift */;
+			targetProxy = E3A6D849B0401E86D4EDE7A543803693 /* PBXContainerItemProxy */;
+		};
+		97585A8A5359A16373A49A0B954DA6A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "FontAwesome.swift-FontAwesome.swift";
+			target = 4DC20DD2E50259D674257304EC016C93 /* FontAwesome.swift-FontAwesome.swift */;
+			targetProxy = 452402FFF162D089FBA2F3A1D806D4C8 /* PBXContainerItemProxy */;
+		};
+		AB9D120258AFA7000E3A2E4CF13F86E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BaseAPI;
+			target = 6D3AF0C6AF53B8F230647F79054EF73F /* BaseAPI */;
+			targetProxy = 0519E3D3F94762697201D5BCD30608DD /* PBXContainerItemProxy */;
+		};
+		D001B45CE83486D9263885886849856C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-repo-browser";
+			target = 1F23F2351DC311504812F672ADDDA30E /* Pods-repo-browser */;
+			targetProxy = F826A46FAFF96C5A4E424B6D13B9B5BD /* PBXContainerItemProxy */;
+		};
+		D0175C823B1BD68487FDA7C123117C8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GithubAPI;
+			target = 46612857DE0B03605DCFF866695FF265 /* GithubAPI */;
+			targetProxy = F6B27ED481174EC8013BF5AB2A25FE73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C050E9000529F1AE72EC9D676BBFDAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9F6A30DB686A598075A7B008B5171B0 /* FontAwesome.swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FontAwesome.swift";
+				INFOPLIST_FILE = "Target Support Files/FontAwesome.swift/ResourceBundle-FontAwesome.swift-FontAwesome.swift-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = FontAwesome.swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2F453424C8A8F34A71E37D1551C91D6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FF0E886B2AC33D9FFCF5B626363A41B /* BaseAPI.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BaseAPI/BaseAPI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BaseAPI/BaseAPI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BaseAPI/BaseAPI.modulemap";
+				PRODUCT_MODULE_NAME = BaseAPI;
+				PRODUCT_NAME = BaseAPI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		38D5FA5AEE5DB9DFEA63B6A5B5210A3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9F6A30DB686A598075A7B008B5171B0 /* FontAwesome.swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FontAwesome.swift";
+				INFOPLIST_FILE = "Target Support Files/FontAwesome.swift/ResourceBundle-FontAwesome.swift-FontAwesome.swift-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = FontAwesome.swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7002BB2F0362A5392E27F286C9CF87A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2E03ADCF74F9291FBF49B1DBD3ADEC9 /* GithubAPI.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GithubAPI/GithubAPI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GithubAPI/GithubAPI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GithubAPI/GithubAPI.modulemap";
+				PRODUCT_MODULE_NAME = GithubAPI;
+				PRODUCT_NAME = GithubAPI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		74447F4519731935F02055DAD12B5855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9F6A30DB686A598075A7B008B5171B0 /* FontAwesome.swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FontAwesome.swift/FontAwesome.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FontAwesome.swift/FontAwesome.swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FontAwesome.swift/FontAwesome.swift.modulemap";
+				PRODUCT_MODULE_NAME = FontAwesome_swift;
+				PRODUCT_NAME = FontAwesome_swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7FE77C1077E9D9056D93CF9C2F7FC0D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9F6A30DB686A598075A7B008B5171B0 /* FontAwesome.swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FontAwesome.swift/FontAwesome.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FontAwesome.swift/FontAwesome.swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FontAwesome.swift/FontAwesome.swift.modulemap";
+				PRODUCT_MODULE_NAME = FontAwesome_swift;
+				PRODUCT_NAME = FontAwesome_swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AA5F75D4BD9729B6BBD7998DE1A89555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B79AF7CF47DE48A0739889316A4B9A6 /* Pods-repo-browserTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-repo-browserTests/Pods-repo-browserTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-repo-browserTests/Pods-repo-browserTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AE6D6DCD2EBE46A482B2FAE70CEF72D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4507632D786216ADBD3D3D3BA1F44FE4 /* Pods-repo-browserTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-repo-browserTests/Pods-repo-browserTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-repo-browserTests/Pods-repo-browserTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0006C6FE8980487EA7CA8BA54FD5336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87A32E8F3DB14C2B4CABFC3F8940EECA /* Pods-repo-browser.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-repo-browser/Pods-repo-browser-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-repo-browser/Pods-repo-browser.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BAE3DA3ED468BADCF261738327F5C3FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FF0E886B2AC33D9FFCF5B626363A41B /* BaseAPI.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BaseAPI/BaseAPI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BaseAPI/BaseAPI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BaseAPI/BaseAPI.modulemap";
+				PRODUCT_MODULE_NAME = BaseAPI;
+				PRODUCT_NAME = BaseAPI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C2B5EF570A9FB29404A12E4FFC327F2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E800923DD2852F37D1E9C3AD5BD665E /* Pods-repo-browser.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-repo-browser/Pods-repo-browser-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-repo-browser/Pods-repo-browser.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EBDBE8775E6033DB024F44913434D32B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2E03ADCF74F9291FBF49B1DBD3ADEC9 /* GithubAPI.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GithubAPI/GithubAPI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GithubAPI/GithubAPI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GithubAPI/GithubAPI.modulemap";
+				PRODUCT_MODULE_NAME = GithubAPI;
+				PRODUCT_NAME = GithubAPI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1742123A90829FAB352CA176B949E415 /* Build configuration list for PBXNativeTarget "GithubAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7002BB2F0362A5392E27F286C9CF87A3 /* Debug */,
+				EBDBE8775E6033DB024F44913434D32B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A2535E26B6B338E427B5CD0A1DA6451 /* Build configuration list for PBXNativeTarget "Pods-repo-browserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE6D6DCD2EBE46A482B2FAE70CEF72D3 /* Debug */,
+				AA5F75D4BD9729B6BBD7998DE1A89555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		359249C1DC1077DCA0FE6EC62255C0C1 /* Build configuration list for PBXNativeTarget "BaseAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE3DA3ED468BADCF261738327F5C3FA /* Debug */,
+				2F453424C8A8F34A71E37D1551C91D6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41C253EBFE15226002761A36F667557C /* Build configuration list for PBXNativeTarget "FontAwesome.swift-FontAwesome.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C050E9000529F1AE72EC9D676BBFDAB /* Debug */,
+				38D5FA5AEE5DB9DFEA63B6A5B5210A3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */,
+				3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C08BB7EBEAAF5EA3ADA8486A4166A737 /* Build configuration list for PBXNativeTarget "FontAwesome.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74447F4519731935F02055DAD12B5855 /* Debug */,
+				7FE77C1077E9D9056D93CF9C2F7FC0D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F31E1A9986B7D6B3BC558F594BCD9AF7 /* Build configuration list for PBXNativeTarget "Pods-repo-browser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2B5EF570A9FB29404A12E4FFC327F2F /* Debug */,
+				B0006C6FE8980487EA7CA8BA54FD5336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

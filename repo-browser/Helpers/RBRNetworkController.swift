@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import GithubAPI
 
 protocol RBRNetworkControllerDelegate: class {
     func messageServerDown()
@@ -33,28 +34,15 @@ class RBRNetworkController: NSObject {
     
     // MARKL - Network calls
     
-    func getRepos(owner: String, completion: @escaping (_ data: Data?, _ HTTPStatusCode: Int, _ error: NSError?) -> Void) {
-        let urlString: String = api + owner
-        let targetURL = URL(string: urlString)
-        var request = URLRequest(url: targetURL!)
-        request.addValue("application/vnd.github.v3+json", forHTTPHeaderField: "Accept")
-        request.setValue("Bearer \(token)", forHTTPHeaderField: "Authorization")
+    func getRepos(owner: String, completion: @escaping (_ data: [RepositoryResponse]) -> Void) {
+        let authentication = AccessTokenAuthentication(access_token: token)
         
-        request.httpMethod = "GET"
-        request.timeoutInterval = timeOut
-        let session = URLSession.shared
-        
-        session.dataTask(with: request) {
-            data, response, err in DispatchQueue.main.async(execute: {
-                () -> Void in
-                if (response as? HTTPURLResponse) != nil {
-                    completion(data, (response as! HTTPURLResponse).statusCode, err as NSError?)
-                }
-                else {
-                    print("No response: \(String(describing: err))")
-                    self.delegate?.messageServerDown()
-                }
-            })
-            }.resume()
+        RepositoriesAPI(authentication: authentication).repositories(user: owner) { (response, error) in
+            if let response = response {
+                completion (response)
+            } else {
+                print(error ?? "")
+            }
+        }
     }
 }
