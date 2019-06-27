@@ -96,6 +96,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     // MARK: - Action
     
     @IBAction func loadRepo(_ sender: UIButton) {
+        txfRepoOwner.resignFirstResponder()
         self.getRepos()
     }
     
