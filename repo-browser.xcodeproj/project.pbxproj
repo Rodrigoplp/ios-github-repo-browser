@@ -15,6 +15,8 @@
 		C10733CA22C468A40095EEDD /* repo_browserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10733C922C468A40095EEDD /* repo_browserTests.swift */; };
 		C10733D722C468F90095EEDD /* RepoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10733D522C468F90095EEDD /* RepoCell.swift */; };
 		C10733D822C468F90095EEDD /* RepoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C10733D622C468F90095EEDD /* RepoCell.xib */; };
+		C10733DA22C46A370095EEDD /* RepoBrowser.plist in Resources */ = {isa = PBXBuildFile; fileRef = C10733D922C46A370095EEDD /* RepoBrowser.plist */; };
+		C10733DD22C46B3C0095EEDD /* RBRNetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10733DC22C46B3C0095EEDD /* RBRNetworkController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		C10733CB22C468A40095EEDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C10733D522C468F90095EEDD /* RepoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoCell.swift; sourceTree = "<group>"; };
 		C10733D622C468F90095EEDD /* RepoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RepoCell.xib; sourceTree = "<group>"; };
+		C10733D922C46A370095EEDD /* RepoBrowser.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = RepoBrowser.plist; sourceTree = "<group>"; };
+		C10733DC22C46B3C0095EEDD /* RBRNetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RBRNetworkController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,7 @@
 		C10733B322C468A30095EEDD /* repo-browser */ = {
 			isa = PBXGroup;
 			children = (
+				C10733DB22C46AF80095EEDD /* Helpers */,
 				C10733D422C468E10095EEDD /* Cells */,
 				C10733B422C468A30095EEDD /* AppDelegate.swift */,
 				C10733B622C468A30095EEDD /* ViewController.swift */,
@@ -88,6 +93,7 @@
 				C10733BB22C468A40095EEDD /* Assets.xcassets */,
 				C10733BD22C468A40095EEDD /* LaunchScreen.storyboard */,
 				C10733C022C468A40095EEDD /* Info.plist */,
+				C10733D922C46A370095EEDD /* RepoBrowser.plist */,
 			);
 			path = "repo-browser";
 			sourceTree = "<group>";
@@ -108,6 +114,14 @@
 				C10733D622C468F90095EEDD /* RepoCell.xib */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		C10733DB22C46AF80095EEDD /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C10733DC22C46B3C0095EEDD /* RBRNetworkController.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C10733BF22C468A40095EEDD /* LaunchScreen.storyboard in Resources */,
+				C10733DA22C46A370095EEDD /* RepoBrowser.plist in Resources */,
 				C10733BC22C468A40095EEDD /* Assets.xcassets in Resources */,
 				C10733BA22C468A30095EEDD /* Main.storyboard in Resources */,
 				C10733D822C468F90095EEDD /* RepoCell.xib in Resources */,
@@ -213,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C10733B722C468A30095EEDD /* ViewController.swift in Sources */,
+				C10733DD22C46B3C0095EEDD /* RBRNetworkController.swift in Sources */,
 				C10733B522C468A30095EEDD /* AppDelegate.swift in Sources */,
 				C10733D722C468F90095EEDD /* RepoCell.swift in Sources */,
 			);
